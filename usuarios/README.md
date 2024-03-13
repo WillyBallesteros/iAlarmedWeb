@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+## Flujo usuarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En el siguiente GIF se evidencia el flujo de registro, login, listado de usuarios y edición de usuario.
+ ![flujoUsuarios](https://github.com/WillyBallesteros/iAlarmedWeb/assets/6864141/b40e20c5-768b-4d0d-8a88-a8bde13f6965)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack de Tecnologías 
 
-## Expanding the ESLint configuration
+React + TypeScript + Vite + ChackraUI
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## librerias
+debe tener instalado node 18.xx.xx
+ 
+Pasos para ejecutar el programa, 
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1) Instalar las dependencias de React con el comando:
+ 
 ```
+npm i
+```
+ 
+2) Luego de instalar las dependencias, la aplicación correra localmente con el comando:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
+npm run dev
+```
+ 
+Esto levantará el sistema en el host:puerto http://127.0.0.1:5173/

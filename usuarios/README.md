@@ -2,7 +2,13 @@
 
 ## Flujo usuarios
 
-En el siguiente GIF se evidencia el flujo de registro, login, listado de usuarios y edición de usuario.
+En el siguiente GIF se evidencian los flujos:
+
+### Registro 
+### Login 
+### Listado de usuarios 
+### Edición de usuario
+
  ![flujoUsuarios](https://github.com/WillyBallesteros/iAlarmedWeb/assets/6864141/b40e20c5-768b-4d0d-8a88-a8bde13f6965)
 
 
@@ -10,8 +16,9 @@ En el siguiente GIF se evidencia el flujo de registro, login, listado de usuario
 
 React + TypeScript + Vite + ChackraUI
 
-## librerias
-debe tener instalado node 18.xx.xx
+## Pasos instalación y ejecución
+
+Debe tener instalado node 18.xx.xx
  
 Pasos para ejecutar el programa, 
 
